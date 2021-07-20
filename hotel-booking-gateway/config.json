@@ -1,0 +1,8 @@
+{
+    "KAFKA_BROKER": "pkc-lzvrd.us-west4.gcp.confluent.cloud:9092",
+    "KAFKA_USER_NAME": "NER6QIDUDCZMW25E",
+    "KAFKA_USER_PASSWORD": "6N0oywt4i/V5jx4wjeDTC5jGI234k5xDpe1WcNqd1tHsXu7sBu8I0q3he8PTkQxB",
+    "KAFKA_GROUP_ID": "hotel-booking-gateway",
+    "KAFKA_MECHANISM": "PLAIN",
+    "MONGODB_STREAM_PROCESSOR_URI": "mongodb+srv://stream_processor_api_staging:7EyzOcV172H1JVXb@cluster0.feoxw.mongodb.net/streamProcessor?retryWrites=true&w=majority"
+}

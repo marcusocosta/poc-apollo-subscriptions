@@ -1,0 +1,25 @@
+{
+  "name": "hotel-business",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-tools/schema": "^7.1.5",
+    "apollo-server-express": "^3.0.1",
+    "express": "^4.17.1",
+    "graphql": "^15.5.1",
+    "graphql-redis-subscriptions": "^2.4.0",
+    "graphql-subscriptions": "^1.2.1",
+    "ioredis": "^4.27.6",
+    "kafka-stream-processor": "^3.0.1",
+    "random": "^3.0.6",
+    "subscriptions-transport-ws": "^0.9.19",
+    "uuid": "^8.3.2"
+  }
+}

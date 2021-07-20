@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+
+  nginx:
+    build:
+      context : ./nginx/
+      dockerfile: Nginx.Dockerfile
+    ports:
+      - "5005:80"
+    restart: always
