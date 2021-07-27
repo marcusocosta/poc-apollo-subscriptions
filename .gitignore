@@ -1,3 +1,6 @@
 hotel-booking-gateway/node_modules
 hotel-expedia-gateway/node_modules
 hotel-business/node_modules
+hotel-booking-gateway/config.json
+hotel-expedia-gateway/config.json
+hotel-business/config.json

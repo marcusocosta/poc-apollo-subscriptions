@@ -20,6 +20,7 @@
     "kafka-stream-processor": "^3.0.1",
     "random": "^3.0.6",
     "subscriptions-transport-ws": "^0.9.19",
-    "uuid": "^8.3.2"
+    "uuid": "^8.3.2",
+    "voll-config": "^2.0.0"
   }
 }

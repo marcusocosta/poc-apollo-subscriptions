@@ -10,8 +10,11 @@ module.exports = gql`
   }
 
   type Hotels {
+    id: ID
     supplier: String
     name: String
     value: Int
+    requester: String
+    responser: String
   }
 `;

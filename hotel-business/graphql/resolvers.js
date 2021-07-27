@@ -1,5 +1,5 @@
-const { to } = require("kafka-stream-processor");
-const pubsub = require("./pubsub");
+const { pubsub } = require("../lib");
+const config = require("voll-config");
 
 module.exports = {
   Query: {
@@ -11,9 +11,10 @@ module.exports = {
     hotels: {
       subscribe: async (parent, args, context, info) => {
         const { id } = args;
-        console.log('----------------------------------------------------------');
-        to("hotel-search-requested")({ key: id, value: {} });
-        return pubsub.asyncIterator(id);
+        return pubsub.asyncIterator("hotel-search-requested", id, {
+          requester: config.get("PORT"),
+          id,
+        });
       },
     },
   },

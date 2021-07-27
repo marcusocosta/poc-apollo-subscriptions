@@ -7,9 +7,11 @@ from("hotel-search-requested", (key, value) => {
       value: {
         hotels: [
           {
+            id: key,
             supplier: "expedia",
             name: "Ibis Belo Horizonte",
-            value: 52,
+            value: 250,
+            requester: value.requester,
           },
         ],
       },

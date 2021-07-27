@@ -7,14 +7,18 @@ from("hotel-search-requested", (key, value) => {
       value: {
         hotels: [
           {
+            id: key,
             supplier: "booking",
             name: "Ibis Belo Horizonte",
-            value: 60,
+            value: 100,
+            requester: value.requester,
           },
           {
+            id: key,
             supplier: "booking",
             name: "Mercure São Paulo",
-            value: 80,
+            value: 200,
+            requester: value.requester,
           },
         ],
       },
